@@ -1,0 +1,137 @@
+.header {
+    padding-top:1.3em;
+    margin-bottom:3em;
+}
+.header__logo-wrapper {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+.header__logo {
+    margin-right:0.6em;
+}
+.header__small-decription {
+    max-width: 2.4em;
+    color: #3B1D8F;
+}
+
+.header__main-description {
+    display: none;
+}
+.header__interaction {
+    display: none;
+}
+.header__tel {
+    margin-right: 2.25em;
+    
+}
+.header__tel-link {
+}
+
+.header__exit-button {
+    background: var(--purple-color);
+    color: var(--button-color);
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+.header__icon {
+    height:3.1em;
+    width:3.1em;
+    background: #DEE6EF;
+    border-radius: 0.4em;
+    position: relative;
+    order: 2;
+
+}
+.header__icon::before, .header__icon:after{
+    content: "";
+}
+.header__icon span, .header__icon::before, .header__icon::after{
+    height: 0.11em;
+    width: 44%;
+    position: absolute;
+    background: var(--purple-color);
+}
+.header__icon span{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.header__icon::before{
+    top:36%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.header__icon::after{
+    bottom:36%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+.header__icon-interaction {
+  background: linear-gradient(326.06deg, #2641D1 11.53%, #3333A3 74.32%);
+  padding: 0.8em 1.1em;
+  border-radius: 15px;
+  margin-right: 0.5em;
+}
+.header__nav {
+    display: none;
+    
+}
+.header__list {
+}
+.header__item {
+}
+.header__link {
+}
+.menu__link {
+}
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:1024px) 
+{
+    .header__icon{
+        display: none;
+    }  
+ 
+    .header__icon-interaction{
+        display: none;
+    }
+    .header__interaction{
+        display: flex;
+        align-items: center;
+        justify-self: end;
+    }
+    .header__nav{
+        display: block;
+        grid-row: 2/3;
+        grid-column: 1/4;
+
+    }
+    .header__list{
+        display: flex;
+    }
+    .header__list>*:not(:last-child){
+        margin-right: 3em;
+    }
+    .header__container{
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        grid-template-columns: auto;
+        grid-row-gap:3em;
+    }
+    .header__logo-wrapper{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        margin: 0;
+    }
+    .header__main-description {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        display: block;
+        max-width:17em;
+        text-align: start;
+    }
+}

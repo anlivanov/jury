@@ -1,0 +1,114 @@
+/* null----------------------------------------------------------------------------------------------------------- */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/* null----------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* vars----------------------------------------------------------------------------------------------------------- */
+:root {
+    --main-bg-color: #F4F7FA;
+    --purple-color: #273895;
+    --title-color: #303030;
+    --description-color: #404040;
+    --main-font: 'Gotham Pro';
+    --title-font-size: 1.5em;
+    --subtitle-font-size: 1.2em;
+    --description-font-size: 1em;
+    --button-color:#FFFFFF;
+    --button-border-radius:1em;
+    --button-font-size:1em;
+
+}
+
+  /* vars----------------------------------------------------------------------------------------------------------- */
+
+body{
+    background: var(--main-bg-color);
+    font-weight: 400;
+}
+
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--title-font-size);
+    line-height: 125%;
+    text-align: center;
+}
+.subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--subtitle-font-size);
+    line-height: 150%;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--description-font-size);
+    line-height: 150%;
+    text-align: center;
+    color: var(--description-color);
+}
+.form-button{
+    background:var(--purple-color);
+    color:var(--button-color);
+    border-radius: var(--button-border-radius);
+    padding: 1em 1.25em;
+    font-size:var(--button-font-size);
+}
+.menu__link{
+    font-size: var(--subtitle-font-size);
+    line-height: 167%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.menu__link:hover{
+    color: var(--purple-color);
+}
+.container{
+    width: 87%;
+    margin: 0 auto;
+}
+.main{
+    margin-bottom: 7em;
+}

@@ -1,0 +1,109 @@
+.about-us__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+   
+}
+.about-us {
+    margin-bottom: 3em;
+    position: relative;
+    
+}
+.about-us__logo {
+    margin-bottom:1.5em;
+}
+.about-us__title {
+    margin-bottom:1.1em;
+  
+
+}
+.title {
+
+}
+.about-us__text {
+    margin-bottom:1.5em;
+}
+.description {
+}
+.about-us-cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: center;
+}
+.about-us__card-client {
+}
+.card {
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 2.58135px 64.5338px rgba(208, 218, 227, 0.57);
+    border-radius: 0.3em;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+.card__title {
+    background: linear-gradient(180deg, #4614E8 0%, #BCA7FF 100%), #7247FF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 2em;
+    margin-bottom:0.25em;
+    
+    
+}
+.card__title span{
+    font-size: 0.8em;
+}
+.card__description {
+    text-align: start;
+
+}
+.about-us__card-client{
+   
+    padding: 1em 1.7em 1em 1em;
+
+}
+.about-us__card-ex{
+   
+    padding: 1em 2.3em 1em 1em ;
+    position: relative;
+    top:1em;
+
+}
+.about-us__card-numb{
+    
+    padding: 1em 0.6em 0.8em 1em;
+}
+.about-us__card-sirius{
+   
+    padding: 1em 1.5em;
+    position: relative;
+    top:1em;
+}
+.about-us-big-decorate{
+    position: absolute;
+    top:46%;
+    right:0;
+    transform: translateX(50%);
+    border-radius: 50%;
+    width: 6.3em;
+    height: 6.3em;
+    background: linear-gradient(90deg, #E1D8FF 21.57%, #F4ECFF 100%);
+    z-index: -1;
+}
+.about-us-small-decorate{
+    position: absolute;
+    top:73%;
+    left:4%;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    background: linear-gradient(90deg, #E1D8FF 21.57%, #F4ECFF 100%);
+    z-index: -1;
+
+}

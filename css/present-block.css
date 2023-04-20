@@ -1,0 +1,46 @@
+.present-block {
+    background: url(../img/present-block/mobile-bg.png) no-repeat center center;
+  background-size: contain;
+  margin-bottom: 1em;
+  
+}
+.present-block__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.present-block__container>*:not(:last-child){
+    margin-bottom: 1em;
+}
+.container {
+}
+.present-block__title {
+}
+.title {
+}
+.present-block__description {
+}
+.description {
+}
+.form-button {
+}
+
+.arc-decor__text {
+    position: absolute;
+    top:52%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    max-width: 5em;
+    text-align: center;
+    
+}
+.arc-decor-img {
+}
+.present-block__arc-decor {
+    width: 7.6em;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+}

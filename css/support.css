@@ -1,0 +1,32 @@
+.support__card {
+    padding:1.5em;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support__title{
+    margin-bottom: 1.5em;
+}
+.support__card>*:not(:last-child){
+    margin-bottom: 1em;
+}
+.support__cards-container{
+    display: flex;
+    flex-direction: column;
+}
+.support__cards-container>*:not(:last-child){
+    margin-bottom: 0.5em;
+}
+.support{
+    margin-bottom: 4.5em;
+}
+.support-img {
+}
+.support__card-title {
+}
+.subtitle {
+}
+.description {
+}

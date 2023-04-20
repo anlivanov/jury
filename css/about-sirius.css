@@ -1,0 +1,144 @@
+.sirius {
+}
+.sirius__container {
+
+}
+.container {
+}
+.sirius__title {
+    margin-bottom: 1.2em;
+}
+.title {
+}
+.sirius__decorate {
+   
+    position: relative;
+    margin-bottom: 3em;
+   
+}
+.sirius__decorate-phone-wrapper{
+    border: thick double #DEE6EF;
+    height: 17em;
+    width: 8.4em;
+    border-radius: 1.6em;
+    padding: 0.1em;
+    transform: translateX(50%);
+}
+.sirius__decorate-phone {
+ height: 100%;
+ width: 100%;
+   background: #34449C;
+   border-radius: 1.6em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ 
+  
+}
+.sirius__decorate-circle {
+    
+    background: url(../img/about-sirius/circle.jpg) no-repeat center center;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    margin-bottom: 0.3em;
+}
+
+.sirius__decorate-ctitle {
+    font-size: 1em;
+    line-height: 314%;
+    text-align: center;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+}
+.sirius__decorate-phone-modal {
+}
+.sirius-modal {
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 1em 0.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(326.06deg, #F0EBFF 11.53%, #FFFFFF 74.32%);
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.78);  
+    border-radius: 0.4em;
+}
+.sirius-modal__text {
+    line-height: 159%;
+    text-align: center;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 700;
+}
+.sirius-modal__button {
+    padding: 0.5em;
+    background: linear-gradient(326.06deg, #2641D1 11.53%, #3333A3 74.32%);
+    color: #FFFFFF;
+    border-radius: 0.4em;
+}
+.sirius__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sirius__text-container {
+    margin-bottom: 2em;
+}
+.sirius__text:not(:last-child) {
+    margin-bottom: 2em;
+    text-align: start;
+}
+.sirius__main-title{
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 314%;
+    letter-spacing: 0.17em;
+    color: #34449C;
+
+}
+.description {
+}
+.sirius__list {
+    margin-bottom: 2em;
+}
+.sirius__item {
+    background: url(../img/about-sirius/arrow.svg) no-repeat left center;
+    text-align: start;
+    padding-left: 1em;
+}
+
+.sirius-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1em;
+}
+.sirius-cards-container__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 1em;
+    padding: 2em;
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 0.6em;
+}
+
+.sirius-card {
+}
+.sirius-card__img {
+}
+.sirius-card__subtitle {
+
+}
+.subtitle {
+}
+.sirius-card__description {
+}
